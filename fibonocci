@@ -1,0 +1,15 @@
+value = int(input("enter the value"))
+n1,n2=0,1
+count =0
+if value<=0:
+    print("enter a positive integer")
+elif value ==1:
+    print("fibonnaci series is,",n2)
+else:
+    print("fibonacci series")
+    while count<value:
+         print(n1)
+         no=n1+n2
+         n1=n2
+         n2=no
+         count +=1
